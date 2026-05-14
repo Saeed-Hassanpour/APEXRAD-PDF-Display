@@ -1,33 +1,34 @@
-# APEXRAD PDF Display (Oracle APEX 24.2+)
+# APEXRAD PDF Display Plugin v24.2.0
+> A feature-rich `PDF Display` Region plugin Oracle APEX for rendering PDF files in a region.
+ 
+**Author:** Saeed Hassanpour — Paya Shetaban Andisheh (APEXRAD)  
+**Version:** 24.2.0 
+**License:** MIT  
+**Repository:** [APEXRAD-PDF-Display](https://github.com/Saeed-Hassanpour/APEXRAD-PDF-Display)
 
-`APEXRAD PDF Display` is an Oracle APEX Region Plugin for rendering PDF files in a region with:
+---
 
-- BLOB or URL source support
-- Page navigation (First/Prev/Next/Last with smart visibility)
-- Optional search and word highlighting
-- Multiple highlight styles
-- Optional selectable text layer
-- Optional zoom controls
+![](https://github.com/Saeed-Hassanpour/APEXRAD-Super-ShuttleItem/blob/main/images/Super-Shuttle-Item.png)
 
-## Plugin Info
+![](https://github.com/Saeed-Hassanpour/APEXRAD-Super-ShuttleItem/blob/main/images/Super-ShuttleItem-setting.png)
 
-- Name: `APEXRAD PDF Display`
-- Internal Name: `INFO.APEXRAD.PDFDISPLAY`
-- Version: `24.2.0`
-- Project URL: [APEXRAD-PDF-Display](https://github.com/Saeed-Hassanpour/APEXRAD-PDF-Display)
+## DEMO ##
 
-## Files
+[https://oracleapex.com/ords/r/saeedhassanpour/oac/](https://oracleapex.com/ords/r/saeedhassanpour/oac/117)
 
-Use only this file for import:
+---
 
-- `region_plugin_info_apexrad_pdfdisplay.sql`
+## Features
 
-It already includes:
+- Single-file plugin import (`region_plugin_info_apexrad_pdfdisplay.sql`) with bundled JS/CSS/PDF.js assets.
+- Flexible source support: works with both database BLOB and direct URL PDF files.
+- Better document navigation UX with smart button visibility and optional first/last page controls.
+- Built-in search and highlight flow with multiple matching modes and highlight styles.
+- Optional selectable text layer for copy/select use cases, while keeping read-only mode available.
+- Optional zoom controls directly in the region title for quick in-page reading.
+- APEX-friendly configuration with clear attributes and bind-item submit support.
 
-- `apexrad-pdfdisplay.js`
-- `pdf.js`
-- `pdf.worker.js`
-- `apexrad-pdfdisplay.css`
+
 
 ## Installation
 
@@ -77,19 +78,4 @@ https://test/file.pdf
   { "word": "Date" }
 ]
 ```
-
-## Notes
-
-- For BLOB mode, the plugin converts BLOB to a Base64 data URL first.
-- For local plugin assets, `pdf.js` and `pdf.worker.js` are bundled in plugin files.
-- You can replace bundled `pdf.js` files in future versions when upgrading PDF.js.
-
-## Pros
-
-- Single-file plugin import (`region_plugin_info_apexrad_pdfdisplay.sql`) with bundled JS/CSS/PDF.js assets.
-- Flexible source support: works with both database BLOB and direct URL PDF files.
-- Better document navigation UX with smart button visibility and optional first/last page controls.
-- Built-in search and highlight flow with multiple matching modes and highlight styles.
-- Optional selectable text layer for copy/select use cases, while keeping read-only mode available.
-- Optional zoom controls directly in the region title for quick in-page reading.
-- APEX-friendly configuration with clear attributes and bind-item submit support.
+## Changelog
