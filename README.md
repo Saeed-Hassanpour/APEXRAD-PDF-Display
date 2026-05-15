@@ -8,9 +8,9 @@
 
 ---
 
-![](https://github.com/Saeed-Hassanpour/APEXRAD-Super-ShuttleItem/blob/main/images/Super-Shuttle-Item.png)
+![](https://github.com/Saeed-Hassanpour/APEXRAD-PDF-Display/blob/main/images/APEXRAD-PDF-Display.png)
 
-![](https://github.com/Saeed-Hassanpour/APEXRAD-Super-ShuttleItem/blob/main/images/Super-ShuttleItem-setting.png)
+![](https://github.com/Saeed-Hassanpour/APEXRAD-PDF-Display/blob/main/images/APEXRAD-PDF-Display-settings.png)
 
 ## DEMO ##
 
