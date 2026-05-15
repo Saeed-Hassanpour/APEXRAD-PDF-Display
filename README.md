@@ -67,7 +67,7 @@ where id = :P2_ID
 
 ```text
 #APP_FILES#test.pdf
-https://test/file.pdf
+https://test.com/file.pdf
 ```
 
 ### JSON Words
