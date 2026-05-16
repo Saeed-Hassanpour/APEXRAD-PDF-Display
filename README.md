@@ -27,6 +27,13 @@
 - Optional selectable text layer for copy/select use cases, while keeping read-only mode available.
 - Optional zoom controls directly in the region title for quick in-page reading.
 - APEX-friendly configuration with clear attributes and bind-item submit support.
+- First/Last Buttons Behavior
+  The First and Last navigation buttons are shown only when the PDF has more than 5 pages.
+  For PDFs with 5 pages or fewer, only Previous and Next are used.
+  Button visibility is also page-aware:
+    On the first page, First and Previous are hidden.
+    On the last page, Next and Last are hidden.
+    If the PDF has only one page, all navigation buttons are hidden.
 
 
 
