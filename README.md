@@ -9,7 +9,7 @@
 ---
 
 
-![](https://raw.githubusercontent.com/Saeed-Hassanpour/APEXRAD-Super-ShuttleItem/master/PDFDisplayPlugin.gif)
+![](https://raw.githubusercontent.com/Saeed-Hassanpour/APEXRAD-PDF-Display/master/PDFDisplayPlugin.gif)
 
 ![](https://github.com/Saeed-Hassanpour/APEXRAD-PDF-Display/blob/main/images/APEXRAD-PDF-Display-settings.png)
 
